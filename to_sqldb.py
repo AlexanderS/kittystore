@@ -12,7 +12,6 @@ import time
 from base64 import b32encode
 from dateutil.parser import parse
 from dateutil import tz
-from kitchen.text.converters import to_bytes
 from hashlib import sha1
 
 from kittystore.kittysamodel import Email, get_class_object

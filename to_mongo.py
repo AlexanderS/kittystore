@@ -13,7 +13,6 @@ import sys
 import time
 from base64 import b32encode
 from dateutil.parser import parse
-from kitchen.text.converters import to_bytes
 from hashlib import sha1
 
 connection = pymongo.Connection('localhost', 27017)
