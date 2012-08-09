@@ -1,8 +1,5 @@
 #!/usr/bin/python -tt
 
-# Import the content of a mbox file into mongodb
-
-import bson
 import datetime
 import mailbox
 import os
